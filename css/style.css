@@ -1,9 +1,14 @@
-body {
+[class*="col-"] {
+    float: left;
+    padding: 15px;
     background-color: blanchedalmond;
     font-family: sans-serif;
     color: navy;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+  }
+.header {
+    background-color: lavender;
+    border: 1px solid black;
+}
+#border {
+    border: 1px solid black;
 }
